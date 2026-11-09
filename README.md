@@ -35,8 +35,8 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/avneetkashyap479/NumberPlate_detection.git
-cd NumberPlate_detection
+git clone https://github.com/Deepaksingh1806/Number_Plate_detection.git
+cd Number_Plate_detection
 ```
 
 ### 2. Set up a Python Virtual Environment
