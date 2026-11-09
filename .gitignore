@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+
+# Local environment
+.env
+
+# Database instance
+database/*.sqlite3
+!database/.gitkeep
+
+# Temporary and generated files
+uploads/**
+output/**
+!uploads/.gitkeep
+!uploads/images/.gitkeep
+!uploads/videos/.gitkeep
+!output/.gitkeep
+!output/annotated/.gitkeep
+!output/crops/.gitkeep
+!output/videos/.gitkeep
+!reports/.gitkeep
+
+# Model weights: track trained best.pt, ignore base weights & temporary checkpoints
+models/*.pt
+!models/best.pt
+yolov8n.pt
+
+# Large training runs & dataset archives (not for git)
+runs/
+datasets/
+reports/screenshots/**
+
+venv/
